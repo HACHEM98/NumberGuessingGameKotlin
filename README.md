@@ -42,7 +42,11 @@ To run this game, follow the steps below:
 4. The game ends either when the player guesses the number or when they run out of guesses.
 5. After winning or losing, the player can restart the game by clicking the respective button.
 ## Project Structure
-- MainActivity.kt: Initializes the game and sets up the UI using Jetpack Compose.
-- GuessingGameScreen.kt: Contains the main game logic and UI components for the game screen.
-- MainViewModel.kt: Manages the game state, including handling user input and game reset logic.
-- GuessingGameState.kt: Defines the state of the game including the mystery number, guessed numbers, and remaining attempts.
+- MainActivity.kt : Initializes the game and sets up the UI using Jetpack Compose.
+- GuessingGameScreen.kt : Contains the main game logic and UI components for the game screen.
+- MainViewModel.kt : Manages the game state, including handling user input and game reset logic.
+- GuessingGameState.kt : Defines the state of the game including the mystery number, guessed numbers, and remaining attempts.
+## Screenshots
+![Dice Roller Screenshot](screenshots/dice_roller.png)
+## License
+This project is licensed under the MIT License .
